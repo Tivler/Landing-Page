@@ -1,10 +1,84 @@
-<DOCTYPE html>
-<html>
-    <head>
-      <meta charset="utf-8">
-      <title>Hello World</title>
-    </head>
-    <body>
-      <h1>Hello World</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="styles/nav.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <title>Tivler | Developer</title>
+</head>
+
+    <body ng-app="site" ng-controller="GlobalCtrl">
+
+        <ul class="navigation">
+	        <li class="nav-item"><a href="index.html">Home</a></li>
+	        <li class="nav-item" ng-click="resumeView()"><a href="./assets/views/resume.html">Resume</a></li>
+        </ul>
+
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger"></label>
+
+        <div class="site-wrap">
+             <!-- All contents for the site go in here  -->
+            <section class="main-header">
+
+                <h1>Tivler</h1>
+              <div class="item">
+                <img src="https://pbs.twimg.com/profile_images/727385937936797699/1wYfRInK.jpg" class="me" />
+              </div>
+                  <!-- <span>UI/UX Designer</span> -->
+
+              <div id="info-box"><a class="more-info" href="" ng-click="infoView()">More info</a></div>
+
+            </section>
+            <!--
+
+
+            <div id="about-container">
+            <section class="about-content">
+                <h3>About me</h3>
+
+                <p>My interest in web development stemmed from my passion for gaming,
+                    but that's a story for another day.
+                    Between developing websites and playing video games,
+                    I admittedly spend most of my time in front of a screen. Some of my passions are writing clean code, creating well-thought user experiences,
+                    and filling up a fresh cup of coffee.</p>
+            </section>
+            </div>
+
+            <section class="contact-content">
+                <h3>Contact me</h3>
+
+                <p>If you have any questions feel free to contact me via email or twitter.</p>
+
+                <ul>
+                    <li>email: <a href="mailto:thomasdmckyer@gmail.com">thomasdmckyer@gmail.com</a></li>
+                    <li>twitter: <a href="https://twitter.com/tmckyer_">@tmckyer_</a></li>
+                </ul>
+
+            </section>
+          -->
+
+            <footer class="main-footer">
+
+                <div class="social-icons">
+                    <ul id="social-stuff">
+                        <li><a href="https://github.com/tivler"><i class="fa fa-github-square fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/tmckyer"><i class="fa fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/tmckyer_"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    </ul>
+                </div>
+
+                <p>© 2016 Tivler. All rights reserved. UI/UX Designer</p>
+
+            </footer>
+
+        <script src="js/vendor/angular/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controllers/GlobalController.js"></script>
+    </div>
+</body>
 </html>

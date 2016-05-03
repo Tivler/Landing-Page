@@ -1,0 +1,57 @@
+* {
+    margin-left: 10px;
+}
+
+#resume-container {
+    margin-bottom: 25px;
+}
+
+.header-content {
+    margin-bottom: 50px;
+}
+
+#main-header {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-family: 'Poly', serif;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.my-links {
+    margin-bottom: 15px;
+}
+
+.resume-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.resume-content h1 {
+    font-family: 'Poly', serif;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.tech-skills h3 {
+    font-family: 'Poly', serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+#back-link:hover {
+    color: #0080FF;
+}
