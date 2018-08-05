@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Tivler/Personal-Site#readme",
   "dependencies": {
-    "angular": "^1.5.5",
-    "express": "^4.13.4"
+    "angular": "^1.7.2",
+    "express": "^4.16.3"
   }
 }
