@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.main-header {
+background-color: black;
+height: 500px;
+width: 100%;
+}
+
+#logo {
+color: #ffffff;
+display: inline-block;
+height: 125px;
+margin-top: 40px;
+margin-left: 40px;
+padding-right: 0px;
+user-select: none;
+}
+
+.info {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
