@@ -10,7 +10,7 @@
     margin: 0;
     font-size: 1rem;
     line-height: 1.5;
-    color: #fff;
+    color: #fafafa;
   }
   
 
@@ -80,7 +80,9 @@
 
 }
 .header-content h2 {
-  font-size: 30px;
+  font-family: "Source Code Pro" , sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
   margin: 0 auto;
   padding-bottom: 2rem;
 } 
@@ -126,13 +128,42 @@ a:hover {
   color: #ffe4c4;
 }
 
-.section a {
-  color: #000;
-  padding-top: 375px;
-  top:100%;
+section {
+  padding-top: 100px;
+  padding-left: 29%;
+  padding-right: 29%;
+  font-family: inconsolata, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: .85rem;
+  font-weight: initial;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.about-me {
+  font-size: 40px;
+  color: black;
+  
+}
+
+.about-me-contents {
+  color:#000;
+}
+
+.code-title {
+  color:black;
+}
+
+.code-block {
+  font-family: arial, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  color:black;
+  white-space: pre;
+  text-align: left;
+  padding-left: 10%;
 }
 
 .copyright > p {
+  background-color: #fafafa;
   font-size: 0.65rem;
   color: black;
   text-align: center;
@@ -153,6 +184,11 @@ a:hover {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
+  }
+
+  section {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
 }
