@@ -5,19 +5,24 @@
 		  <title>Tivler | Software Engineer</title>
 			<link href="index.css" type="text/css" rel="stylesheet" />
 			<link rel="stylesheet" href="https://unpkg.com/typer-js/typer.css">
-
+			<!--New Things Added For Gallery-->
+			<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+				<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+				<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+			<link rel="stylesheet" href="css/lightbox.min.css">
+			<!--End Here-->
 	  </head>
 	
 	  <body>
 		<header class="v-header container">
 		  <div class="fullscreen-video-wrap">
-			<video src="./imgs/Pexels Videos 4098.mp4" autoplay="true" loop="true" muted alt="Video of waves" /></video>
+			<video src="./imgs/background.mp4" autoplay="true" loop="true" muted alt="Video of waves" /></video>
 		  </div>
 		  
 		  <div class="nav-bar">
 			<nav class="nav-links">
-			  <a href="#" class="link-one">About Me</a>
-			  <a href="#" class="link-two">Contact</a>
+			  <a href="#about-me-contents" class="link-one">About Me</a>
+			  <a href="mailto:tivlerdesign@gmail.com" target="_top" class="link-two">Contact</a>
 			  <a href="#" class="link-three">Resume</a>
 			  <a href="https://github.com/tivler" class="link-three" target="_blank"> Github </a>
 			</nav>
@@ -25,25 +30,84 @@
 			<img src="./imgs/NewTivLogo.png" id="main-logo" />
 		  </div>
 	
-		  <div class="overlay" /></div>
-		  <div class="header-content"/>
+		  <div class="overlay"></div>
+		  <div class="header-content">
 			  <h1>Thomas McKyer | Tivler </h1>
 			  <h2 class="what-i-do"></h2>
 		   </div>
 		</header>
 	
 		<section>
-			<h1 class="code-title">/** Hello Im Tivler and I Write Code...</h1>
+			<h1 class="code-title">/** Whats up Im Tivler and I Write Code.</h1>
 		</section>
+		<!--GALLERY IS HERE-->
 
-		<section class="instafeed">
+		<div id="wrapper">
+			<!--Gallery Row 1 Start-->
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-13.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-13.png"></a>
+			</div>
+
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-12.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-12.png"></a>
+			</div>
+
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-11.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-11.png"></a>
+			</div>
+			<!--Gallery Row 1 End-->  
 
 
-		</section>
+			<!--Gallery Row 2 Start-->
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-10.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-10.png"></a>
+			</div>
 
-		<section>
-			 <h1 class="about-me"> /* About Me */</h1>
-			 		<p class="about-me-contents">
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-9.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-9.png"></a>
+			</div>
+
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-8.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-8.png"></a>
+			</div>
+			<!--Gallery Row 2 End-->  
+
+
+			<!--Gallery Row 3 Start-->
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-7.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-7.png"></a>
+			</div>
+
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-6.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-6.png"></a>
+			</div>
+
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-5.png" data-lightbox="example-set" data-title="#"><img class="example-image" src="img/post-5.png"></a>
+			</div>
+			<!--Gallery Row 3 End-->  
+
+
+			<!--Gallery Row 4 Start-->
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-4.png" data-lightbox="example-set" data-title="#"><img class="example-images" src="img/post-4.png"></a>
+			</div>
+
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-2.png" data-lightbox="example-set" data-title="#"><img class="example-images" src="img/post-2.png"></a>
+			</div>
+
+			<div class="one-third">
+				<a class="example-image-link" id="lightbox-img" href="img/post-1.png" data-lightbox="example-set" data-title="#"><img class="example-images" src="img/post-1.png"></a>
+			</div>
+			<!--Gallery Row 4 End-->  
+	</div>
+
+	<!--END OF GALLERY CODE-->
+
+		<section class="about-me">
+			 <h3>/* About Me */</h3>
+			 		<p id="about-me-contents">
 				Hi, Im Thomas but around the internet I go by Tivler. Im pretty much into all things software and tech! From keyboards, monitors and desk setups to just being a nerd in general, I watch a lot of gaming streams and watch a ton of talks on all things software and spend majority of my time in front of a computer screen. Im very motivated and I love new things and new challenges that's probably why I chose web & software development. The concept that you could have any idea, any random thought or solve any little problem sometimes with just a few lines of code has completely changed the way I look at almost everything. Bringing ideas and thoughts to life there hasn’t been anything that exciting since I first watched naruto! Today I keep myself busy working remote building customized and intuitive user experiences and learning more and more skills to add to my skill set everyday! - Tivler
 					</p>
 		</section>
@@ -52,7 +116,8 @@
 			<p>copyright  2018-current Tivler.io Personal Webpage Designed & Developed By TivlerDesign.</p>
 		</footer>
 
-	  	<script src="https://unpkg.com/typer-js"></script>
+			<script src="https://unpkg.com/typer-js"></script>
+			<script src="js/lightbox-plus-jquery.min.js"></script>
 			<script src= "./site.js"></script>
 	  </body>
 	</html>
