@@ -1,0 +1,34 @@
+/* Styles For Contact Icons */
+
+.git {
+    font-size: 2rem; 
+    color:#eab44e; 
+    padding-left: 45.3%;
+}
+
+.linkedin {
+    font-size: 2rem;
+    color: #eab44e;
+}
+
+.instagram {
+    font-size: 2rem;
+    color:#eab44e;
+}
+
+.twitter {
+    font-size: 2rem;
+    color:#eab44e;
+}
+
+.gmail {
+    font-size: 2rem;
+    color:#eab44e;
+}
+
+/* Styles For Links On Icons */
+
+.links {
+    font-size: 2rem;
+    color:#eab44e;
+}
