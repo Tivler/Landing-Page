@@ -6,13 +6,13 @@
 
 .social-icon {
     padding: 5px;
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 /* Styles For Links On Icons */
 
 .iconlink {
     font-size: 2rem;
-    color:#eab44e;
+    color:#FFC107;
 }
 
 .iconlink:hover {
