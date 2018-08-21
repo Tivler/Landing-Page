@@ -2,12 +2,12 @@
 
 #wrapper {
     display: flex;
-    flex-wrap:wrap; 
+    flex-wrap:wrap;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 110px;
   }
-  
+
   img {
     display: block;
     max-width: 100%;
@@ -15,7 +15,7 @@
     width: auto;
     margin-bottom: -4px;
   }
-  
+
   .example-images {
     display: block;
     max-width: 100%;
@@ -24,13 +24,13 @@
     margin-bottom: -4px;
     padding-bottom: 100px;
   }
-  
+
   .one-third {
     width: 29%;
     float: left;
     margin: 2%;
   }
-  
+
   img:hover {
     opacity: 0.8;
   }
@@ -39,6 +39,8 @@
     .one-third {
         width: 48%;
         margin: 1%;
+
+
     }
      .example-images {
        padding-bottom: 10px;
@@ -47,7 +49,7 @@
 
   @media screen and (max-width: 480px) {
     .one-third {
-        width: 98%;
-        margin: 1%;
+        width: 100%;
+        margin-bottom: 40px;
     }
   }

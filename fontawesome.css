@@ -12,7 +12,7 @@
 
 .iconlink {
     font-size: 2rem;
-    color:#FFC107;
+    color:#000;
 }
 
 .iconlink:hover {
@@ -21,4 +21,10 @@
 
 .iconlink:link {
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 480px) {
+    .iconlink {
+      font-size:3rem;
+    }
   }
