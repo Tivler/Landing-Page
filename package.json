@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Tivler/Personal-Site#readme",
   "dependencies": {
+    "pts": "^0.6.7",
     "typer-js": "^4.1.0"
   }
 }
