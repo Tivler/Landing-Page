@@ -1,6 +1,7 @@
 
 body {
     background-color: #f4f4f4;
+    color:#fff;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -22,6 +23,7 @@ nav {
     float: right;
     list-style-type: none;
     text-decoration: none;
+    margin-right: 10%;
 }
 
 .nav_list-item {   
@@ -30,10 +32,11 @@ nav {
 
 .nav_list-item a {
     color: #fff;
-    font-size: 1.15em;
+    font-size: 1.2em;
     text-shadow: -2px 2px #444;
     line-height: 1.35;
     text-decoration: none;
+    text-transform: lowercase;
 }
 
 .nav_list-item a:hover {
@@ -45,19 +48,49 @@ nav {
 
 /* Logo Styles */
 
-.logo {
+.logo_container {
     float: left;
+    margin-left: 10%;
+    margin-top: 34px;
+}
+
+.logo {
     height: 62px;
-    margin: 32px;
+    filter: drop-shadow(-2px 2px 1px #6777);
 }
 
 /* Video Styles */
 
 .video {
     position: absolute;
-    height: 75vh;
+    height: 100vh;
     min-width: 100%;
     max-width: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+/* Hero Styles */
+
+.main_hero {
+   text-align: center;
+   text-transform: lowercase;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+}
+
+.main_hero-head1 {
+   font-size: 5em;
+   text-shadow: -2px 2px #444;
+   margin-bottom: 0;
+}
+
+.main_hero-head2 {
+   font-size: 1.5em;
+   text-shadow: -2px 2px #444;
+   margin-top: 5px;
 }
