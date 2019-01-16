@@ -1,8 +1,10 @@
 {
   "name": "personal-site",
   "version": "1.0.0",
-  "description": "Personal site",
+  "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,19 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/Tivler/Personal-Site.git"
   },
-  "keywords": [
-    "Personal",
-    "site",
-    "Portfolio",
-    "site"
-  ],
-  "author": "tivler <tivlerdesign@gmailcom>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tivler/Personal-Site/issues"
   },
-  "homepage": "https://github.com/Tivler/Personal-Site#readme",
-  "dependencies": {
-    "typer-js": "^4.1.0"
-  }
+  "homepage": "https://github.com/Tivler/Personal-Site#readme"
 }
