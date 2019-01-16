@@ -62,7 +62,6 @@ nav {
 /* Video Styles */
 
 .video {
-    position: absolute;
     height: 100vh;
     min-width: 100%;
     max-width: 100%;
@@ -93,4 +92,19 @@ nav {
    font-size: 1.5em;
    text-shadow: -2px 2px #444;
    margin-top: 5px;
+}
+
+/* About Me Section Styles */
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.about_me-avatar {
+    
 }
