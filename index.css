@@ -33,13 +33,6 @@ body {
    font-family: "Great Day Personal use";
 }
 
-.main_hero-head2 {
-    margin-top: 25px;
-    color: #fff;
-    text-shadow: -2px 2px 1px #444;
-    font-weight: 400;
-}
-
 @media only screen and (max-width: 1000px) {
    .main_hero-head1 {
       font-size: 5em;
@@ -49,11 +42,6 @@ body {
 @media only screen and (max-width: 670px) {
    .main_hero-head1 {
     line-height: 125px;
-   }
-
-   .main_hero-head2 {
-      font-size: 1.25em;
-      margin-top: 15px; 
    }
 }
 
