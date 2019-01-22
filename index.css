@@ -4,22 +4,8 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
-}
-
-.header_color {
-    /*background-color: #FFC921;*/
-    background-color: #FFD963;
-    height: 100%;
-}
-
-/* Video Styles */
-
-.video {
-    height: 100vh;
-    min-width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* Hero Styles */
@@ -49,6 +35,18 @@ body {
     font-family: Montserrat;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 486px) {
+    .main_hero-head1{
+        font-size: 3em;
+    }
+
+    .main_hero-head2{
+        font-size: 1em;
+    }
+}
+
 /* About Me Section Styles */
 
 .about_me {
@@ -69,7 +67,15 @@ body {
    text-align: justify;
 }
 
-
+@media screen and (max-width: 865px) {
+    .about_me{
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    .about_me-description{
+    text-align: center;;
+    }
+}
 /* Footer Styles */
 
 #footer {
