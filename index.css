@@ -3,6 +3,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
+    font-family: 'Montserrat' , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header_color {
@@ -25,6 +26,7 @@ body {
 
 .main_hero-head1 {
    font-size: 7em;
+   font-weight: 900;
    text-shadow: -2px 5px 3px #444;
    margin-bottom: 0;
    color: #fff;
@@ -35,16 +37,39 @@ body {
     margin-top: 25px;
     color: #fff;
     text-shadow: -2px 2px 1px #444;
-    font-family: Montserrat;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+   .main_hero-head1 {
+      font-size: 5em;
+   }
+}
+
+@media only screen and (max-width: 670px) {
+   .main_hero-head1 {
+    line-height: 125px;
+   }
+
+   .main_hero-head2 {
+      font-size: 1.25em;
+      margin-top: 15px; 
+   }
+}
+
+@media only screen and (max-width: 670px) {
+   .main_hero-head1 {
+    line-height: 110px;
+    font-size: 4em;
+   }
 }
 /* About Me Section Styles */
 
-.about_me {
+.about_me {   
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 25px;
     text-align: center;
 }
@@ -56,9 +81,36 @@ body {
 
 .about_me-description {
    text-align: justify;
+   font-size: 1.3em;
 }
 
+@media only screen and (max-width: 1500px) {
+   .about_me {
+    margin-left: 12%;
+    margin-right: 12%;
+   }
+}
 
+@media only screen and (max-width: 1000px) {
+   .about_me {
+    margin-left: 12%;
+    margin-right: 12%;
+   }
+}
+
+@media only screen and (max-width: 670px) {
+   .about_me {
+    margin-left: 8%;
+    margin-right: 8%;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .about_me {
+    margin-left: 13%;
+    margin-right: 13%;
+   }
+}
 /* Footer Styles */
 
 #footer {
