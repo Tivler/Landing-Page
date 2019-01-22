@@ -79,9 +79,22 @@ body {
    margin-top: 50px;
 }
 
+.about_me-subtitle {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.about_me-signature {
+   margin-top: 18px;
+   font-family: "Great Day Personal Use";
+   font-size: x-large;
+}
+
 .about_me-description {
    text-align: justify;
-   font-size: 1.3em;
+   font-size: 1.4em;
+   font-weight: 300;
 }
 
 @media only screen and (max-width: 1500px) {
