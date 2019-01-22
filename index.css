@@ -62,6 +62,11 @@ nav {
 
 /* Video Styles */
 
+.video_wrapper{
+    background-color: #2856;
+    height: 100%;
+}
+
 .video {
     height: 100vh;
     min-width: 100%;
