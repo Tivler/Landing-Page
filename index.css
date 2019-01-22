@@ -6,66 +6,13 @@ body {
     height: 100vh;
 }
 
-/* Navigation Styles */
-
-nav {
-    position: absolute;
-    min-width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.nav_list {
-    display: flex;
-    float: right;
-    list-style-type: none;
-    text-decoration: none;
-    margin-right: 10%;
-    margin-top: 24px;
-}
-.nav_list-item {
-    margin-right: 48px;
-}
-
-.nav_list-item:last-child {   
-    margin-right: 0px;
-}
-
-.nav_list-item a {
-    color: #fff;
-    font-size: 1.2em;
-    text-shadow: -2px 2px #777;
-    line-height: 1.35;
-    text-decoration: none;
-    text-transform: lowercase;
-}
-
-.nav_list-item a:hover {
-    color: antiquewhite;
-}
-
-/* End Naviagation styles */
-
-
-/* Logo Styles */
-
-.logo_container {
-    float: left;
-    margin-left: 10%;
-    margin-top: 16px;
-}
-
-.logo {
-    height: 62px;
-    filter: drop-shadow(-2px 2px 1px #6777);
+.header_color {
+    /*background-color: #FFC921;*/
+    background-color: #FFD963;
+    height: 100%;
 }
 
 /* Video Styles */
-
-.video_wrapper{
-    background-color: #2856;
-    height: 100%;
-}
 
 .video {
     height: 100vh;
@@ -79,7 +26,6 @@ nav {
 
 .main_hero {
    text-align: center;
-   text-transform: lowercase;
    margin: 0;
    position: absolute;
    top: 50%;
@@ -88,28 +34,21 @@ nav {
    transform: translate(-50%, -50%);
 }
 
-.main_hero-avi {
-   height: 12em;
-   width: 12em;
-   filter: drop-shadow(-2px 2px 1px #6777);
-   border-radius: 5px;
-}
-
 .main_hero-head1 {
-   font-size: 5em;
-   text-shadow: -2px 2px #444;
+   font-size: 7em;
+   text-shadow: -2px 5px 3px #444;
    margin-bottom: 0;
-   margin-top: 10px;
-   color: #fff
+   color: #fff;
+   font-family: "Great Day Personal use";
 }
 
 .main_hero-head2 {
-   font-size: 1.5em;
-   text-shadow: -2px 2px #444;
-   margin-top: 0;
-   color: #fff;
+    margin-top: 25px;
+    color: #fff;
+    text-shadow: -2px 2px 1px #444;
+    font-family: Montserrat;
+    font-weight: 400;
 }
-
 /* About Me Section Styles */
 
 .about_me {
