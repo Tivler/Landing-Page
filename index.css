@@ -29,20 +29,13 @@ body .main_hero .me-hero {
 
 @media only screen and (max-width: 1000px) {
   body .me-hero {
-    font-size: 5em;
+    font-size: 5em !important;
   }
 }
 
 @media only screen and (max-width: 670px) {
   body .me-hero {
-    line-height: 125px;
-  }
-}
-
-@media only screen and (max-width: 670px) {
-  body .me-hero {
-    line-height: 110px;
-    font-size: 4em;
+    line-height: 75px;
   }
 }
 
