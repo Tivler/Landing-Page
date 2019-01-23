@@ -1,134 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Zeyada");
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Montserrat' , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montserrat' , sans-serif;
 }
 
-.header_color {
-    /* background-color: #FFC921; */
-    /* background-color: #FFD963; */
-    background-color: #FFAF4A;
-    height: 100%;
+body .main_hero {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
-/* Hero Styles */
-
-.main_hero {
-   text-align: center;
-   margin: 0;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -50%);
-}
-
-.main_hero-head1 {
-   font-size: 10em;
-   font-weight: 900;
-   text-shadow: -2px 5px 3px #444;
-   margin-bottom: 0;
-   color: #fff;
-   font-family: "Zeyada";
+body .main_hero .main_hero-heading {
+  font-size: 10em;
+  font-weight: 900;
+  text-shadow: 2px 5px 3px #444;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: "Zeyada", "Montserrat", sans-serif;
 }
 
 @media only screen and (max-width: 1000px) {
-   .main_hero-head1 {
-      font-size: 5em;
-   }
+  body .main_hero-heading {
+    font-size: 5em;
+  }
 }
 
 @media only screen and (max-width: 670px) {
-   .main_hero-head1 {
+  body .main_hero-heading {
     line-height: 125px;
-   }
+  }
 }
 
 @media only screen and (max-width: 670px) {
-   .main_hero-head1 {
+  body .main_hero-heading {
     line-height: 110px;
     font-size: 4em;
-   }
-}
-/* About Me Section Styles */
-
-.about_me {   
-    display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 25px;
-    text-align: center;
+  }
 }
 
-.about_me-title {
-   margin-bottom: 25px;
-   margin-top: 50px;
+body .header_color {
+  background-color: #FFAF4A;
+  height: 100%;
 }
 
-.about_me-subtitle {
-    font-size: 1.4em;
-    font-weight: 300;
-    margin-bottom: 25px;
+body .about_me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 25px;
+  text-align: center;
 }
 
-.about_me-signature {
-   margin-top: 18px;
-   font-family: "Zeyada" , 'Montserrat' , sans-serif;
-   font-size: 2em;
+body .about_me .about_me-title {
+  margin-bottom: 25px;
+  margin-top: 50px;
 }
 
-.about_me-description {
-   text-align: justify;
-   font-size: 1.4em;
-   font-weight: 300;
+body .about_me .about_me-subtitle {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+body .about_me .about_me-description {
+  text-align: justify;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+body .about_me .about_me-signature {
+  margin-top: 18px;
+  font-family: "Zeyada", "Montserrat", sans-serif;
+  font-size: 2em;
 }
 
 @media only screen and (max-width: 1500px) {
-   .about_me {
+  body .about_me {
     margin-left: 12%;
     margin-right: 12%;
-   }
-}
-
-@media only screen and (max-width: 1000px) {
-   .about_me {
-    margin-left: 12%;
-    margin-right: 12%;
-   }
+  }
 }
 
 @media only screen and (max-width: 670px) {
-   .about_me {
+  body .about_me {
     margin-left: 8%;
     margin-right: 8%;
-   }
+  }
 }
 
 @media only screen and (max-width: 500px) {
-   .about_me {
+  body .about_me {
     margin-left: 13%;
     margin-right: 13%;
-   }
-}
-/* Footer Styles */
-
-#footer {
-   border-top: 1px solid #e1e4e8;
-   height: 50px;
-   display: flex;
-   flex-direction: column;
-   margin-left: 26px;
-   margin-right: 26px;
+  }
 }
 
-.footer-copyright {
-   font-size: 12px;
-   color: #586069;
-   text-align: center;
-   margin-top: 25px;
-   margin-bottom: 25px;
-} 
+body #footer {
+  border-top: 1px solid #e1e4e8;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 26px;
+  margin-right: 26px;
+}
 
+body #footer .footer-copyright {
+  font-size: 12px;
+  color: #586069;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=index.css.map */
