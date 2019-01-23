@@ -1,9 +1,11 @@
 {
   "name": "personal-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal landing view",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.6.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/Tivler/Personal-Site.git"
   },
-  "author": "",
+  "author": "Tivler",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tivler/Personal-Site/issues"
