@@ -18,7 +18,7 @@ body .main_hero {
           transform: translate(-50%, -50%);
 }
 
-body .main_hero .main_hero-heading {
+body .main_hero .me-hero {
   font-size: 10em;
   font-weight: 900;
   text-shadow: 2px 5px 3px #444;
@@ -28,19 +28,19 @@ body .main_hero .main_hero-heading {
 }
 
 @media only screen and (max-width: 1000px) {
-  body .main_hero-heading {
+  body .me-hero {
     font-size: 5em;
   }
 }
 
 @media only screen and (max-width: 670px) {
-  body .main_hero-heading {
+  body .me-hero {
     line-height: 125px;
   }
 }
 
 @media only screen and (max-width: 670px) {
-  body .main_hero-heading {
+  body .me-hero {
     line-height: 110px;
     font-size: 4em;
   }

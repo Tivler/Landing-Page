@@ -28,7 +28,7 @@ body {
         margin-right: -50%;
         transform: translate(-50%, -50%);
 
-        .main_hero-heading {
+        .me-hero {
             font-size: 10em;
             font-weight: 900;
             text-shadow: $shadows;
@@ -36,22 +36,23 @@ body {
             color: #fff;
             font-family: $hero_font; 
         }
+
     }
 
     @media only screen and (max-width: 1000px) {
-        .main_hero-heading {
+        .me-hero {
             font-size: 5em;
         }
     }
     
     @media only screen and (max-width: 670px) {
-        .main_hero-heading {
+        .me-hero {
             line-height: 125px;
         }
     }
 
     @media only screen and (max-width: 670px) {
-        .main_hero-heading {
+        .me-hero {
             line-height: 110px;
             font-size: 4em;
         }
