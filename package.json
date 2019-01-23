@@ -4,7 +4,8 @@
   "description": "Personal landing view",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.6.0"
+    "npm": "^6.6.0",
+    "typer-js": "^5.0.1"
   },
   "devDependencies": {},
   "scripts": {
