@@ -7,8 +7,9 @@ body {
 }
 
 .header_color {
-    /*background-color: #FFC921;*/
-    background-color: #FFD963;
+    /* background-color: #FFC921; */
+    /* background-color: #FFD963; */
+    background-color: #FFAF4A;
     height: 100%;
 }
 
@@ -25,12 +26,12 @@ body {
 }
 
 .main_hero-head1 {
-   font-size: 7em;
+   font-size: 10em;
    font-weight: 900;
    text-shadow: -2px 5px 3px #444;
    margin-bottom: 0;
    color: #fff;
-   font-family: "Great Day Personal use";
+   font-family: "Zeyada";
 }
 
 @media only screen and (max-width: 1000px) {
@@ -75,8 +76,8 @@ body {
 
 .about_me-signature {
    margin-top: 18px;
-   font-family: "Great Day Personal Use";
-   font-size: x-large;
+   font-family: "Zeyada" , 'Montserrat' , sans-serif;
+   font-size: 2em;
 }
 
 .about_me-description {
