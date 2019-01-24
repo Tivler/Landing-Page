@@ -100,6 +100,12 @@ body .about_me .about_me-signature {
     margin-left: 13%;
     margin-right: 13%;
   }
+  body .about_me .about_me-subtitle {
+    display: none;
+  }
+  body .about_me .about_me-signature {
+    margin-bottom: 0;
+  }
 }
 
 body #footer {

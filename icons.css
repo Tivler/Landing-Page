@@ -29,4 +29,9 @@
     .iconlink {
       font-size:3rem;
     }
+
+    .social-icon {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }

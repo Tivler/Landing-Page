@@ -106,6 +106,14 @@ body {
         .about_me {
             margin-left: 13%;
             margin-right: 13%;
+
+            .about_me-subtitle {
+                display: none;
+            }
+
+            .about_me-signature {
+                margin-bottom: 0;
+            }
         }
     }
 
