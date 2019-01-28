@@ -7,8 +7,7 @@ body {
   font-family: 'Montserrat' , sans-serif;
 }
 
-body .main_hero {
-  text-align: center;
+body .main_hero-wrap {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -18,6 +17,10 @@ body .main_hero {
           transform: translate(-50%, -50%);
 }
 
+body .main_hero {
+  text-align: center;
+}
+
 body .main_hero .me-hero {
   font-size: 10em;
   font-weight: 900;
@@ -25,6 +28,15 @@ body .main_hero .me-hero {
   margin-bottom: 0;
   color: #fff;
   font-family: "Zeyada", "Montserrat", sans-serif;
+}
+
+body .main_hero .me-subhero {
+  font-size: 2em;
+  font-weight: 200;
+  text-shadow: 2px 5px 3px #444;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: roboto;
 }
 
 @media only screen and (max-width: 1000px) {

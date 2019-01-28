@@ -25,14 +25,18 @@ body {
     height: 100vh;
     font-family: 'Montserrat' , sans-serif;
 
-    .main_hero {
-        text-align: center;
+
+    .main_hero-wrap{
         margin: 0;
         position: absolute;
         top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
+    }
+
+    .main_hero {
+        text-align: center;
 
         .me-hero {
             font-size: 10em;
@@ -41,6 +45,15 @@ body {
             margin-bottom: 0;
             color: #fff;
             font-family: $hero_font; 
+        }
+
+        .me-subhero {
+            font-size: 2em;
+            font-weight: 200;
+            text-shadow: $shadows;
+            margin-bottom: 0;
+            color: #fff;
+            font-family: roboto;
         }
 
     }
