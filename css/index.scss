@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Zeyada');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 $borders: 1px solid #e1e4e8;
 $shadows: 2px 5px 3px #444;
@@ -53,7 +54,7 @@ body {
             text-shadow: $shadows;
             margin-bottom: 0;
             color: #fff;
-            font-family: roboto;
+            font-family: 'Cutive Mono';
         }
 
     }

@@ -1,10 +1,10 @@
 (function () {
-    const whatIDo = document.querySelector('.me-subhero');
+    const whatIDo = document.querySelector('.me-hero');
 
     typer(whatIDo, 150)
-        .pause(175)
+        .pause(400)
         .line('Thomas McKyer...')
 })();
 
-const hero = document.querySelector('.main_hero')
+const hero = document.querySelector('.me-hero')
 hero.classList.add('animated', 'bounceInLeft');
