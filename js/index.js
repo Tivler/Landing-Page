@@ -2,7 +2,7 @@
     const whatIDo = document.querySelector('.me-hero');
 
     typer(whatIDo, 150)
-        .pause(250)
+        .pause(150)
         .line('Thomas McKyer...')
 })();
 
