@@ -4,6 +4,7 @@
   "description": "Personal landing view",
   "main": "index.js",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "npm": "^6.6.0",
     "typer-js": "^5.0.1"
   },
