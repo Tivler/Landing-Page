@@ -26,6 +26,7 @@ body {
     height: 100vh;
     font-family: 'Montserrat' , sans-serif;
 
+}
 
     .main_hero-wrap{
         margin: 0;
@@ -89,16 +90,11 @@ body {
             margin-top: 50px;
         }
 
-        .about_me-subtitle {
-            font-size: 1.4em;
-            font-weight: 300;
-            margin-bottom: 25px;
-        }
-
         .about_me-description {
             text-align: justify;
             font-size: 1.4em;
             font-weight: 300;
+            margin-top: 1rem;
         }
 
         .about_me-signature {
@@ -153,4 +149,3 @@ body {
             margin-bottom: 25px;
         }
     }
-}

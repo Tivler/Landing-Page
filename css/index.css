@@ -8,7 +8,7 @@ body {
   font-family: 'Montserrat' , sans-serif;
 }
 
-body .main_hero-wrap {
+.main_hero-wrap {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -18,11 +18,11 @@ body .main_hero-wrap {
           transform: translate(-50%, -50%);
 }
 
-body .main_hero {
+.main_hero {
   text-align: center;
 }
 
-body .main_hero .me-hero {
+.main_hero .me-hero {
   font-size: 10em;
   font-weight: 900;
   text-shadow: 2px 5px 3px #444;
@@ -31,7 +31,7 @@ body .main_hero .me-hero {
   font-family: "Zeyada", "Montserrat", sans-serif;
 }
 
-body .main_hero .me-subhero {
+.main_hero .me-subhero {
   font-size: 2em;
   font-weight: 200;
   text-shadow: 2px 5px 3px #444;
@@ -41,23 +41,23 @@ body .main_hero .me-subhero {
 }
 
 @media only screen and (max-width: 1000px) {
-  body .me-hero {
+  .me-hero {
     font-size: 5em !important;
   }
 }
 
 @media only screen and (max-width: 670px) {
-  body .me-hero {
+  .me-hero {
     line-height: 75px;
   }
 }
 
-body .header_color {
+.header_color {
   background-color: #a94c4c;
   height: 100%;
 }
 
-body .about_me {
+.about_me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,57 +71,52 @@ body .about_me {
   text-align: center;
 }
 
-body .about_me .about_me-title {
+.about_me .about_me-title {
   margin-bottom: 25px;
   margin-top: 50px;
 }
 
-body .about_me .about_me-subtitle {
-  font-size: 1.4em;
-  font-weight: 300;
-  margin-bottom: 25px;
-}
-
-body .about_me .about_me-description {
+.about_me .about_me-description {
   text-align: justify;
   font-size: 1.4em;
   font-weight: 300;
+  margin-top: 1rem;
 }
 
-body .about_me .about_me-signature {
+.about_me .about_me-signature {
   margin-top: 18px;
   font-family: "Zeyada", "Montserrat", sans-serif;
   font-size: 2em;
 }
 
 @media only screen and (max-width: 1500px) {
-  body .about_me {
+  .about_me {
     margin-left: 12%;
     margin-right: 12%;
   }
 }
 
 @media only screen and (max-width: 670px) {
-  body .about_me {
+  .about_me {
     margin-left: 8%;
     margin-right: 8%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  body .about_me {
+  .about_me {
     margin-left: 13%;
     margin-right: 13%;
   }
-  body .about_me .about_me-subtitle {
+  .about_me .about_me-subtitle {
     display: none;
   }
-  body .about_me .about_me-signature {
+  .about_me .about_me-signature {
     margin-bottom: 0;
   }
 }
 
-body #footer {
+#footer {
   border-top: 1px solid #e1e4e8;
   height: 50px;
   display: -webkit-box;
@@ -135,7 +130,7 @@ body #footer {
   margin-right: 26px;
 }
 
-body #footer .footer-copyright {
+#footer .footer-copyright {
   font-size: 12px;
   color: #586069;
   text-align: center;
