@@ -11,9 +11,11 @@ $bg_color3: #FFAF4A;
 $bg_color4: #a94c4c;
 $bg_color5: #9F6262;
 $bg_color6: #793636;
-$bg_color7: #2694AB;
-$bg_color8: #FDC4B6;
-$bg_color9: #A37ACC;
+$bg_color7: #B86B77;
+$bg_color8: #2694AB;
+$bg_color9: #FDC4B6;
+$bg_color10: #A37ACC;
+$bg_color11: #F6CFCA;
 $footer: #586069;
 
 body {
@@ -70,7 +72,7 @@ body {
     }
     
     .header_color {
-        background-color: $bg_color6;
+        background-color: $bg_color7;
         height: 100%;
     }
 
