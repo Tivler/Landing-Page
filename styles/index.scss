@@ -16,6 +16,7 @@ $bg_color8: #2694AB;
 $bg_color9: #FDC4B6;
 $bg_color10: #A37ACC;
 $bg_color11: #F6CFCA;
+$bg_color12: #da674a;
 $footer: #586069;
 
 body {
@@ -72,7 +73,7 @@ body {
     }
     
     .header_color {
-        background-color: $bg_color7;
+        background-color: $bg_color12;
         height: 100%;
     }
 
