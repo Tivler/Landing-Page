@@ -7,4 +7,4 @@
 })();
 
 const hero = document.querySelector('.me-hero')
-hero.classList.add('animated', 'bounceInLeft');
+hero.classList.add('animated', 'rotateIn');
