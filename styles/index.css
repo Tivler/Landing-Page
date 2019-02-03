@@ -53,9 +53,8 @@ body {
 }
 
 .header_color {
-  background: -webkit-gradient(linear, left top, left bottom, from(#F6CFCA), to(#da674a));
-  background: linear-gradient(#F6CFCA, #da674a);
-  background-color: #da674a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFAF4A), to(#a94c4c));
+  background: linear-gradient(#FFAF4A, #a94c4c);
   height: 100%;
 }
 
