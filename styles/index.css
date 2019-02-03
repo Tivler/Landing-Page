@@ -72,6 +72,10 @@ body {
   text-align: center;
 }
 
+.about_me .highlight {
+  color: #da674a;
+}
+
 .about_me .about_me-title {
   margin-bottom: 25px;
   margin-top: 50px;
