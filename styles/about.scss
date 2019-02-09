@@ -22,7 +22,7 @@ body {
     display: block;
     padding: 15px;
     text-decoration: none;
-    color: red;
+    color: indianred;
     font-size: 1rem;
     font-weight: 300;
     margin: 0 10px;
@@ -39,7 +39,7 @@ body {
 }
   
 .nav-list-item a:hover {
-    color: indigo;;
+    color: red;
     z-index: 1;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .icon:hover {
-    color: red;
+    color: indianred;
     transition: .2s;
 }
 
