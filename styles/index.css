@@ -13,12 +13,16 @@ body {
   width: 100%;
 }
 
-.wrapper {
+.content-wrapper {
   max-width: 560px;
-  background-color: aqua;
-  height: 100%;
   width: 96%;
-  margin: 0 auto;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .hero {
@@ -42,26 +46,38 @@ body {
   border-radius: 100%;
   width: 120px;
   height: 120px;
+  margin-bottom: 25px;
+}
+
+#heading {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  color: #222;
+  font-weight: 700;
+  margin: 0 0 13px;
+}
+
+#description {
+  font-weight: 300;
+  font-style: normal;
+  color: #aaa;
+  margin: 0 auto 30px;
 }
 
 .nav-menu {
-  width: 100%;
   padding: 50px 0;
   text-align: center;
-  position: absolute;
 }
 
 .nav-menu a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #f4f4f4;
-  font-size: 16px;
-  font-weight: 800;
-  text-transform: uppercase;
+  color: indigo;
+  font-size: 1.2rem;
+  font-weight: 300;
   margin: 0 10px;
   position: relative;
-  overflow: hidden;
   z-index: 1;
 }
 
@@ -76,7 +92,7 @@ body {
 }
 
 .nav-list-item a:hover {
-  color: #555;
+  color: indigo;
   z-index: 1;
 }
 
@@ -88,14 +104,46 @@ body {
   margin: auto;
   content: '.';
   color: transparent;
-  width: 1px;
+  width: 0%;
   height: 1px;
-  border-radius: 50%;
-  background: transparent;
+  background: #aaa;
 }
 
 .nav-menu a:hover:after {
-  -webkit-animation: circle 2s ease-in forwards;
-          animation: circle 2s ease-in forwards;
+  width: 100%;
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+.social-icon {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.iconlink {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.iconlink:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  border-top: 1px solid #ededed;
+  padding: 40px 0;
+  margin: 40px 0 0;
+  color: #aaa;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
 }
 /*# sourceMappingURL=index.css.map */
