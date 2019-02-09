@@ -23,7 +23,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.hero {
+.main-hero {
     margin-top: 125px;
     display: flex;
     flex-direction: column;
@@ -56,9 +56,9 @@ body {
 .nav-menu {
     padding: 50px 0;
     text-align: center;
-  }
+}
   
-  .nav-menu a {
+.nav-menu a {
     display: block;
     padding: 15px;
     text-decoration: none;
@@ -68,22 +68,22 @@ body {
     margin: 0 10px;
     position: relative;
     z-index: 1;
-  }
+}
   
-  .nav-list-item {
-      display: inline-block;
-  }
+.nav-list-item {
+    display: inline-block;
+}
   
-  .nav-menu a,
-  .nav-menu a:after {
+.nav-menu a, .nav-menu a:after {
     transition: all .5s;
-  }
+}
   
-  .nav-list-item a:hover {
+.nav-list-item a:hover {
     color: indigo;;
     z-index: 1;
-  }
-  .nav-menu a:after {
+}
+
+.nav-menu a:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -94,13 +94,13 @@ body {
     width: 0%;
     height: 1px;
     background: #aaa;
-  }
+}
   
 .nav-menu a:hover:after {
    width: 100%;
 }
   
-.social-icons {
+.social-icon-list {
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -110,12 +110,12 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
-.iconlink {
+.icon {
     font-size: 1.2rem;
     color:#000;
 }
 
-.iconlink:hover {
+.icon:hover {
     opacity: 0.8;
 }
 
