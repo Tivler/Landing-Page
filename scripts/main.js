@@ -1,5 +1,5 @@
 function animateCss(element, animation) {
-    const selector = document.querySelector(element);
+    const selector = document.querySelector(element)
     window.addEventListener("load", function () {
         selector.classList.add('animated', animation);
     });

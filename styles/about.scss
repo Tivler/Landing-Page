@@ -6,10 +6,16 @@
 
 body {
     line-height: 1;
-    font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #666;
     height: 100%;
     width: 100%;
+}
+
+.wrapper {
+    max-width: 560px;
+    margin: 0 auto;
+    animation-delay: .45s;
 }
 
 .nav-menu {
@@ -20,15 +26,21 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-    .nav-menu{
+    .nav-menu {
         padding: 50px 0;
     }
-
     .resume {
         display: none !important;
     }
-  }
-  
+}
+
+@media only screen and (max-height: 900px) {
+    .nav-menu {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
+
 .nav-menu a {
     display: block;
     padding: 15px;
@@ -40,15 +52,16 @@ body {
     position: relative;
     z-index: 1;
 }
-  
+
 .nav-list-item {
     display: inline-block;
 }
-  
-.nav-menu a, .nav-menu a:after {
+
+.nav-menu a,
+.nav-menu a:after {
     transition: all .5s;
 }
-  
+
 .nav-list-item a:hover {
     color: red;
     z-index: 1;
@@ -66,15 +79,9 @@ body {
     height: 1px;
     background: #aaa;
 }
-  
-.nav-menu a:hover:after {
-   width: 100%;
-}
 
-.wrapper {
-    max-width: 560px;
-    margin: 0 auto;
-    animation-delay: .45s;
+.nav-menu a:hover:after {
+    width: 100%;
 }
 
 .about-hero {
@@ -83,10 +90,16 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-    .about-hero{
+    .about-hero {
         margin-bottom: 50px;
     }
-  }
+}
+
+@media only screen and (max-height: 900px) {
+    .about-hero {
+        margin-bottom: 50px;
+    }
+}
 
 #avi {
     display: block;
@@ -94,14 +107,20 @@ body {
     border-radius: 5px;
     width: 50%;
 }
+
 @media only screen and (max-width: 400px) {
-    #avi{
+    #avi {
         border-radius: 5px;
         width: 60%;
         margin-bottom: 25px;
     }
-  }
+}
 
+@media only screen and (max-height: 900px) {
+    #avi {
+        width: 45%;
+    }
+}
 
 .description {
     line-height: 1.7;
@@ -115,20 +134,25 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-    .description{
+    .description {
         margin-left: 10%;
         margin-right: 10%;
         text-align: center;
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
-    .description{
+@media only screen and (max-width: 800px) {
+    .description {
         margin-left: 7%;
         margin-right: 7%;
     }
-  }
+}
 
+@media only screen and (max-height: 900px) {
+    .description {
+        text-align: left;
+    }
+}
 
 .social-icon-about {
     display: flex;
@@ -141,9 +165,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .icon {
     font-size: 1.2rem;
-    color:#000;
+    color: #000;
 }
 
 .icon:hover {

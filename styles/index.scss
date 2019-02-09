@@ -6,7 +6,7 @@
 
 body {
     line-height: 1;
-    font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #666;
     height: 100%;
     width: 100%;
@@ -20,12 +20,18 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+
 @media only screen and (max-width: 770px) {
-    .outer-wrapper{
+    .outer-wrapper {
         top: 50%;
     }
-  }
+}
 
+@media only screen and (max-height: 900px) {
+    .outer-wrapper {
+        top: 45%;
+    }
+}
 
 .content-wrapper {
     max-width: 1118px;
@@ -43,10 +49,10 @@ body {
 }
 
 @media only screen and (max-width: 770px) {
-    .main-hero{
+    .main-hero {
         margin-top: 100px;
     }
-  }
+}
 
 #avi {
     border-radius: 100%;
@@ -82,7 +88,7 @@ body {
     text-align: center;
     animation-delay: .2s
 }
-  
+
 .nav-menu-main a {
     display: block;
     padding: 15px;
@@ -94,15 +100,16 @@ body {
     position: relative;
     z-index: 1;
 }
-  
+
 .nav-list-item {
     display: inline-block;
 }
-  
-.nav-menu-main a, .nav-menu-main a:after {
+
+.nav-menu-main a,
+.nav-menu-main a:after {
     transition: all .5s;
 }
-  
+
 .nav-list-item a:hover {
     color: red;
     z-index: 1;
@@ -120,11 +127,11 @@ body {
     height: 1px;
     background: #aaa;
 }
-  
+
 .nav-menu-main a:hover:after {
-   width: 100%;
+    width: 100%;
 }
-  
+
 .social-icon-list {
     display: flex;
     justify-content: center;
@@ -136,9 +143,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .icon {
     font-size: 1.2rem;
-    color:#000;
+    color: #000;
 }
 
 .icon:hover {
