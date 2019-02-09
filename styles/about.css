@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #666;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-menu {
+  position: relative;
+  padding: 75px 0;
+  text-align: center;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-menu {
+    padding: 50px 0;
+  }
+  .resume {
+    display: none !important;
+  }
+}
+
+.nav-menu a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: indianred;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-list-item {
+  display: inline-block;
+}
+
+.nav-menu a, .nav-menu a:after {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.nav-list-item a:hover {
+  color: red;
+  z-index: 1;
+}
+
+.nav-menu a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  content: '.';
+  color: transparent;
+  width: 0%;
+  height: 1px;
+  background: #aaa;
+}
+
+.nav-menu a:hover:after {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 560px;
+  margin: 0 auto;
+  -webkit-animation-delay: .45s;
+          animation-delay: .45s;
+}
+
+.about-hero {
+  margin-bottom: 75px;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+@media only screen and (max-width: 400px) {
+  .about-hero {
+    margin-bottom: 50px;
+  }
+}
+
+#avi {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 400px) {
+  #avi {
+    border-radius: 5px;
+    width: 60%;
+    margin-bottom: 25px;
+  }
+}
+
+.description {
+  line-height: 1.7;
+  color: #666;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 20px;
+  letter-spacing: .4px;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+@media only screen and (max-width: 400px) {
+  .description {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .description {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+
+.social-icon-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.social-icon {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.icon:hover {
+  color: indianred;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.footer {
+  border-top: 1px solid #ededed;
+  padding: 40px 0;
+  margin: 40px 0 0;
+  color: #aaa;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+/*# sourceMappingURL=about.css.map */

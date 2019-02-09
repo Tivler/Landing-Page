@@ -1,152 +1,158 @@
-@import url('https://fonts.googleapis.com/css?family=Zeyada');
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-
-$borders: 1px solid #e1e4e8;
-$shadows: 2px 5px 3px #444;
-$font: 'Montserrat' , sans-serif;
-$hero_font: "Zeyada" , 'Montserrat' , sans-serif;
-$bg_color1: #FFC921;
-$bg_color2: #FFD963;
-$bg_color3: #FFAF4A;
-$bg_color4: #a94c4c;
-$bg_color5: #9F6262;
-$bg_color6: #793636;
-$bg_color7: #B86B77;
-$bg_color8: #2694AB;
-$bg_color9: #FDC4B6;
-$bg_color10: #A37ACC;
-$bg_color11: #F6CFCA;
-$bg_color12: #da674a;
-$footer: #586069;
-
-body {
+* {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Montserrat' , sans-serif;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-    .main_hero-wrap{
-        margin: 0;
-        position: absolute;
+body {
+    line-height: 1;
+    font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #666;
+    height: 100%;
+    width: 100%;
+}
+
+.outer-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 770px) {
+    .outer-wrapper{
         top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
     }
+  }
 
-    .main_hero {
-        text-align: center;
 
-        .me-hero {
-            font-size: 10em;
-            font-weight: 900;
-            text-shadow: $shadows;
-            margin-bottom: 0;
-            color: #fff;
-            font-family: $hero_font; 
-        }
+.content-wrapper {
+    max-width: 1118px;
+    width: 100%;
+    text-align: center;
+    animation-delay: .25s;
+}
 
-        .me-subhero {
-            font-size: 2em;
-            font-weight: 200;
-            text-shadow: $shadows;
-            margin-bottom: 0;
-            color: #fff;
-            font-family: 'Cutive Mono';
-        }
+.main-hero {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+@media only screen and (max-width: 770px) {
+    .main-hero{
+        margin-top: 100px;
     }
+  }
 
-    @media only screen and (max-width: 1000px) {
-        .me-hero {
-            font-size: 5em !important;
-        }
-    }
-    
-    @media only screen and (max-width: 670px) {
-        .me-hero {
-            line-height: 75px;
-        }
-    }
-    
-    .header_color {
-        background: linear-gradient($bg_color4, $bg_color3);
-        height: 100%;
-        
-    }
+#avi {
+    border-radius: 100%;
+    width: 135px;
+    height: 135px;
+    margin-bottom: 25px;
+}
 
-    .about_me {  
-        display: flex;
-        flex-direction: column;
-        margin-left: 30%;
-        margin-right: 30%;
-        margin-top: 25px;
-        text-align: center;
+#avi:hover {
+    opacity: .8;
+    transform: scale(1);
+    transition: all 2s;
+}
 
-        .about_me-title {
-            margin-bottom: 25px;
-            margin-top: 50px;
-        }
+#heading {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    color: #222;
+    font-weight: 700;
+    margin: 5px 0 13px;
+}
 
-        .about_me-description {
-            text-align: justify;
-            font-size: 1.4em;
-            font-weight: 300;
-            margin-top: 1rem;
-        }
+#description {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    margin: 0 auto 30px;
+}
 
-        .about_me-signature {
-            margin-top: 18px;
-            font-family: $hero_font;
-            font-size: 2em;
-        }
-    }
+.nav-menu-main {
+    padding: 50px 0;
+    text-align: center;
+    animation-delay: .2s
+}
+  
+.nav-menu-main a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: indianred;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+  
+.nav-list-item {
+    display: inline-block;
+}
+  
+.nav-menu-main a, .nav-menu-main a:after {
+    transition: all .5s;
+}
+  
+.nav-list-item a:hover {
+    color: red;
+    z-index: 1;
+}
 
-    @media only screen and (max-width: 1500px) {
-        .about_me {
-            margin-left: 12%;
-            margin-right: 12%;
-        }
-    }
+.nav-menu-main a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '.';
+    color: transparent;
+    width: 0%;
+    height: 1px;
+    background: #aaa;
+}
+  
+.nav-menu-main a:hover:after {
+   width: 100%;
+}
+  
+.social-icon-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    animation-delay: .1s;
+}
 
-    @media only screen and (max-width: 670px) {
-        .about_me {
-            margin-left: 8%;
-            margin-right: 8%;
-        }
-    }
+.social-icon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.icon {
+    font-size: 1.2rem;
+    color:#000;
+}
 
-    @media only screen and (max-width: 500px) {
-        .about_me {
-            margin-left: 13%;
-            margin-right: 13%;
+.icon:hover {
+    color: red;
+    transition: .2s;
+}
 
-            .about_me-subtitle {
-                display: none;
-            }
-
-            .about_me-signature {
-                margin-bottom: 0;
-            }
-        }
-    }
-
-    #footer {
-        border-top: 1px solid #e1e4e8;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 26px;
-        margin-right: 26px;
-
-        .footer-copyright {
-            font-size: 12px;
-            color: #586069;
-            text-align: center;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-    }
+.footer-main {
+    border-top: 1px solid #ededed;
+    padding: 40px 0;
+    margin: 40px 0 0;
+    color: #aaa;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    animation-delay: .3s
+}

@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "Personal landing view",
   "main": "index.js",
-  "dependencies": {
-    "animate.css": "^3.7.0",
-    "npm": "^6.6.0",
-    "typer-js": "^5.0.1"
-  },
-  "devDependencies": {},
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Tivler/Personal-Site/issues"
   },
-  "homepage": "https://github.com/Tivler/Personal-Site#readme"
-}
+
+  "homepage": "https://github.com/Tivler/Personal-Site#readme",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
