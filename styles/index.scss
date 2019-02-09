@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #666;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 560px;
+    background-color: aqua;
+    height: 100%;
+    width: 96%;
+    margin: 0 auto
+}
+
+.hero {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#avi {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+
+.nav-menu {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .nav-menu a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .nav-list-item {
+      display: inline-block;
+  }
+  
+  .nav-menu a,
+  .nav-menu a:after {
+    transition: all .5s;
+  }
+  
+  .nav-list-item a:hover {
+    color: #555;
+    z-index: 1;
+  }
+  .nav-menu a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '.';
+    color: transparent;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: transparent;
+  }
+  
+  .nav-menu a:hover:after {
+    animation: circle 2s ease-in forwards;
+  }
+  
