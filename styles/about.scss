@@ -12,19 +12,9 @@ body {
     width: 100%;
 }
 
-.about-hero {
-    display: flex;
-}
-
-#avi {
-    border-radius: 5px;
-    width: 50%;
-}
-
-
 .nav-menu {
     position: relative;
-    padding: 50px 0;
+    padding: 75px 0;
     text-align: center;
 }
   
@@ -33,7 +23,7 @@ body {
     padding: 15px;
     text-decoration: none;
     color: red;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
     margin: 0 10px;
     position: relative;
@@ -68,4 +58,58 @@ body {
   
 .nav-menu a:hover:after {
    width: 100%;
+}
+
+.content-wrapper {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.about-hero {
+    margin-bottom: 50px;
+}
+
+#avi {
+   display: block;
+   margin: 0 auto;
+    border-radius: 5px;
+    width: 42%;
+}
+
+.description {
+    line-height: 1.7;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: .4px;
+}
+
+.social-icon-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.social-icon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.icon {
+    font-size: 1.2rem;
+    color:#000;
+}
+
+.icon:hover {
+    color: red;
+    transition: .2s;
+}
+
+.footer {
+    border-top: 1px solid #ededed;
+    padding: 40px 0;
+    margin: 40px 0 0;
+    color: #aaa;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
 }
