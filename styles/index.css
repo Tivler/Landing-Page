@@ -13,9 +13,7 @@ body {
   width: 100%;
 }
 
-.content-wrapper {
-  max-width: 560px;
-  width: 96%;
+.outer-wrapper {
   margin: 0;
   position: absolute;
   top: 30%;
@@ -26,9 +24,17 @@ body {
 }
 
 @media only screen and (max-width: 770px) {
-  .content-wrapper {
+  .outer-wrapper {
     top: 50%;
   }
+}
+
+.content-wrapper {
+  max-width: 1118px;
+  width: 100%;
+  text-align: center;
+  -webkit-animation-delay: .25s;
+          animation-delay: .25s;
 }
 
 .main-hero {

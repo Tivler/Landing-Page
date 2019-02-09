@@ -71,9 +71,11 @@ body {
   width: 100%;
 }
 
-.content-wrapper {
+.wrapper {
   max-width: 560px;
   margin: 0 auto;
+  -webkit-animation-delay: .45s;
+          animation-delay: .45s;
 }
 
 .about-hero {

@@ -70,9 +70,10 @@ body {
    width: 100%;
 }
 
-.content-wrapper {
+.wrapper {
     max-width: 560px;
     margin: 0 auto;
+    animation-delay: .45s;
 }
 
 .about-hero {
