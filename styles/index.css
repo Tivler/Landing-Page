@@ -17,11 +17,13 @@ body {
   margin: 0;
   position: absolute;
   top: 30%;
+
   left: 50%;
   margin-right: -50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
 
 @media only screen and (max-width: 770px) {
   .outer-wrapper {

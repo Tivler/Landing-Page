@@ -1,0 +1,37 @@
+/* Styles For Contact Icons */
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.social-icon {
+    padding: 5px;
+    font-size: 2rem;
+}
+/* Styles For Links On Icons */
+
+.iconlink {
+    font-size: 2rem;
+    color:#000;
+}
+
+.iconlink:hover {
+    opacity: 0.8;
+}
+
+.iconlink:link {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 480px) {
+    .iconlink {
+      font-size:3rem;
+    }
+
+    .social-icon {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
