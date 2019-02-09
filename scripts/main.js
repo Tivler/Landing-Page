@@ -1,9 +1,18 @@
-function animateCss(element, a, b, c) {
-    const heading = document.querySelector(element);
+function animateCss(element, animation) {
+    const selector = document.querySelector(element);
     window.addEventListener("load", function () {
-        heading.classList.add('animated', a, b ,c);
+        selector.classList.add('animated', animation);
     });
 }
 
-animateCss('.content-wrapper', 'fadeInUp');
-animateCss('.wrapper', 'fadeIn', 'slow');
+animateCss('.main-hero', 'bounceInUp');
+animateCss('.social-icon-list', 'bounceInUp');
+animateCss('.nav-menu-main', 'bounceInUp');
+animateCss('.footer-main', 'bounceInUp');
+
+animateCss('.nav-menu', 'bounceInUp');
+animateCss('.about-hero', 'bounceInUp');
+animateCss('.description', 'bounceInUp');
+animateCss('.main-hero', 'bounceInUp');
+animateCss('.social-icon-about', 'bounceInUp');
+animateCss('.footer', 'bounceInUp');

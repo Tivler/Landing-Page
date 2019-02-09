@@ -16,6 +16,7 @@ body {
     position: relative;
     padding: 75px 0;
     text-align: center;
+    animation-delay: .5s
 }
 
 @media only screen and (max-width: 400px) {
@@ -78,6 +79,7 @@ body {
 
 .about-hero {
     margin-bottom: 75px;
+    animation-delay: .6s;
 }
 
 @media only screen and (max-width: 400px) {
@@ -109,6 +111,7 @@ body {
     text-align: justify;
     margin-bottom: 20px;
     letter-spacing: .4px;
+    animation-delay: .8s;
 }
 
 @media only screen and (max-width: 400px) {
@@ -127,10 +130,11 @@ body {
   }
 
 
-.social-icon-list {
+.social-icon-about {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    animation-delay: .7s;
 }
 
 .social-icon {
@@ -155,4 +159,5 @@ body {
     font-weight: 300;
     text-align: center;
     position: relative;
+    animation-delay: .9s;
 }
