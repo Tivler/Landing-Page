@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tivler/Personal-Site/issues"
   },
-  "homepage": "https://github.com/Tivler/Personal-Site#readme"
+  "homepage": "https://github.com/Tivler/Personal-Site#readme",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
 }
