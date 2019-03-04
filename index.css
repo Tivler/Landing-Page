@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+@import url("https://fonts.googleapis.com/css?family=Bungee|Monoton");
 * {
   margin: 0;
   padding: 0;
@@ -10,12 +12,16 @@
   padding: 50px 50px 50px 100px;
 }
 
-.main-content .start-tag, .main-content .tag, .main-content .end-tag {
+.main-content .tag {
   font-family: 'Indie Flower';
+  color: #767676;
 }
 
 .main-content .heading {
-  color: #fff;
+  color: #FFF;
+  font-size: 100px;
+  font-weight: 300;
+  margin-bottom: 5px;
 }
 
 .main-content .main-header {
