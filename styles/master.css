@@ -35,7 +35,7 @@ nav ul li a {
     width: 600px;
     height: 100%;
     z-index: -1;
-    background: #A7E7D9;
+    background: indianred;
     opacity: 0;
     transition: all 0.2s ease;
 }
@@ -78,7 +78,7 @@ nav ul li a {
 .nav-wrapper ul li a {
     padding: 10px 24px;
     opacity: 0;
-    color: #464646;
+    color: #fff;
     font-size: 25px;
     font-weight: 900;
     font-family: 'Nunito Sans';
