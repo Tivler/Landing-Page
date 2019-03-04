@@ -32,7 +32,7 @@ nav ul li a {
     position: fixed;
     top: 0;
     right: 0;
-    width: 600px;
+    width: 415px;
     height: 100%;
     z-index: -1;
     background: indianred;
@@ -88,7 +88,7 @@ nav ul li a {
 }
 
 .nav-btn {
-    position: fixed;
+    position: absolute;
     right: 38px;
     top: 38px;
     display: block;
@@ -156,3 +156,9 @@ nav ul li a {
 .hidden {
     display: none;
 }
+
+@media only screen and (max-width: 375px) {
+   .nav-wrapper {
+       width: 100%
+   }
+  }

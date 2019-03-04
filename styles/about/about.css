@@ -10,6 +10,12 @@
   overflow: hidden;
 }
 
+@media only screen and (max-width: 1450px) {
+  * {
+    overflow: scroll;
+  }
+}
+
 .tag {
   font-family: 'Indie Flower';
   color: #767676;
