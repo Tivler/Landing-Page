@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tag {
+    font-family: 'Indie Flower';
+    color: #767676;
+}
+
+.main-content {
+    background-color: #464646;
+    height: 100vh;
+    padding: 50px 50px 50px 100px;
+    position: relative;
+
+    .start {
+        margin-left: -20px;
+    }
+
+    .main-header {
+        margin-top: 27vh;
+
+        .heading {
+            color: #fff;
+            font-size: 90px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            font-family: 'bungee shade';
+            font-style: normal;
+        }
+
+        .description {
+            color: #fff;
+            font-family: 'Merriweather Sans';
+            font-size: 1.25em;
+            margin-top: 15px;
+        }
+    }
+
+    .icon-list {
+        margin-top: 35px;
+        margin-left: -10px;
+
+        .social-icon {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .icon {
+            font-size: 1.8rem;
+            color: #292929;
+        }
+        
+        .icon:hover {
+            color: #000;
+            transition: .7s;
+        }
+    }
+
+    .end {
+        position: absolute;
+        bottom: 135px;
+        margin-left: -20px;
+    }
+
+    .button {
+        font-family: 'nunito-sans', sans-serif;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 15px;
+        background-color: transparent;
+        color: #A7E7D9;
+        border: 1px solid #A7E7D9;
+        margin-top: 35px;
+        transition-duration: .5s;
+    }
+}
