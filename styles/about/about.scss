@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1450px) { 
+    * {
+        overflow: scroll;
+    }
+  } 
+
+.tag {
+    font-family: 'Indie Flower';
+    color: #767676;
+}
+
+.main-content {
+    background-color: #464646;
+    height: 100vh;
+    padding: 50px 50px 50px 100px;
+    position: relative;
+
+    .start {
+        margin-left: -20px;
+    }
+
+    .main-header {
+        margin-top: 25vh;
+
+        .heading {
+            color: #fff;
+            font-size: 90px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            font-family: 'bungee shade';
+            font-style: normal;
+        }
+
+        .description {
+            color: #fff;
+            font-family: 'Merriweather Sans';
+            font-size: 1.25em;
+            margin-top: 15px;
+        }
+    }
+
+    .icon-list {
+        margin-top: 35px;
+        margin-left: -10px;
+
+        .social-icon {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .icon {
+            font-size: 1.8rem;
+            color: #292929;
+        }
+        
+        .icon:hover {
+            color: #000;
+            transition: .7s;
+        }
+    }
+
+    .button {
+        font-family: 'nunito-sans', sans-serif;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 15px;
+        background-color: transparent;
+        color: indianred;
+        border: 1px solid indianred;
+        margin-top: 35px;
+        transition-duration: .5s;
+    }
+
+    .about-section {
+        margin-right: 30%;
+        position: absolute;
+        top: 20vh;
+        left: 35%;
+
+        .about-me {
+            color: #fff;
+            font-family: 'nunito sans', sans-serif;
+            font-size: 20px;
+            color: #E0E0E0;
+            font-weight: lighter !important;
+            line-height: 1.5;
+        }
+        .part-one {
+            margin-top: 105px;
+            margin-bottom: 35px;
+        }
+
+        .part-two {
+            margin-top: 35px;
+            margin-bottom: 100px;
+        }
+
+        .loader {
+            margin: 30px 0px 20px 20px;
+            border: 6px solid indianred;
+            border-radius: 50%;
+            display: inline-block;
+            width: 110px;
+            height: 110px;
+
+            .loader-name {
+                text-align: center;
+                margin-top: 45px;
+                color: white;
+            }
+        }   
+    }
+
+    .end {
+        position: absolute;
+        bottom: 135px;
+        margin-left: -20px;
+    }
+}

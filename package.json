@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "1.0.0",
-  "description": "Personal landing view",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/Tivler/Personal-Site/issues"
   },
-  "homepage": "https://github.com/Tivler/Personal-Site#readme",
-  "dependencies": {
-    "animate.css": "^3.7.0"
-  }
+  "homepage": "https://github.com/Tivler/Personal-Site#readme"
 }
