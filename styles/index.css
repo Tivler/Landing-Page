@@ -15,7 +15,7 @@
 
 .main-content {
   background-color: #464646;
-  height: 99vh;
+  height: 100vh;
   padding: 50px 50px 50px 100px;
   position: relative;
 }
@@ -44,22 +44,22 @@
   margin-top: 15px;
 }
 
-.main-content .main-nav {
+.main-content .icon-list {
   margin-top: 35px;
   margin-left: -10px;
 }
 
-.main-content .main-nav .social-icon {
+.main-content .icon-list .social-icon {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.main-content .main-nav .icon {
+.main-content .icon-list .icon {
   font-size: 1.8rem;
   color: #292929;
 }
 
-.main-content .main-nav .icon:hover {
+.main-content .icon-list .icon:hover {
   color: #000;
   -webkit-transition: .7s;
   transition: .7s;

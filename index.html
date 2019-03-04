@@ -7,11 +7,30 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="master.css">
     <title>Thomas McKyer</title>
 </head>
 <body>
     <div class="main-content">
         <p class="start tag">&lt;body&gt</p>
+
+        <nav>
+            <input type="checkbox" id="nav" class="hidden">
+            <label for="nav" class="nav-btn">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+            </label>
+            <div class="nav-wrapper">
+                  <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Github</a></li>
+                  </ul>
+            </div>
+      </nav>
+
         <header class="main-header">
             <p class="tag">&lt;h1&gt</p>
             <h1 class="heading">I'm Thomas, <br>
@@ -21,7 +40,7 @@
             <p class="description">Front-End / JavaScript / Vue.js</p>
         </header>
 
-        <nav class="main-nav">
+        <div class="icon-list">
             <span class="social-icon git">
                 <a href="https://github.com/tivler" class="icon" target="_blank"><i class="fab fa-github-alt"></i></a>
             </span>
@@ -34,7 +53,7 @@
             <span class="social-icon gmail">
                 <a href="mailto:thomasdmckyer@gmail.com" class="icon"><i class="far fa-envelope"></i></a>
             </span>
-        </nav>
+        </div>
 
         <p class="end tag">&lt;/body&gt</p>
 
