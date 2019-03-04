@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Bungee+Shade");
 @import url("https://fonts.googleapis.com/css?family=Merriweather+Sans");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 * {
   margin: 0;
   padding: 0;
@@ -43,9 +44,44 @@
   margin-top: 15px;
 }
 
+.main-content .main-nav {
+  margin-top: 35px;
+  margin-left: -10px;
+}
+
+.main-content .main-nav .social-icon {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-content .main-nav .icon {
+  font-size: 1.8rem;
+  color: #292929;
+}
+
+.main-content .main-nav .icon:hover {
+  color: #000;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
 .main-content .end {
   position: absolute;
   bottom: 135px;
   margin-left: -20px;
+}
+
+.main-content .button {
+  font-family: nunito-sans, sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: transparent;
+  color: #A7E7D9;
+  border: 1px solid #A7E7D9;
+  margin-top: 35px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 /*# sourceMappingURL=index.css.map */
