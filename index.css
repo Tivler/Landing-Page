@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,19 @@
 
 .main-content {
   background-color: #464646;
-  color: #767676;
   height: 100vh;
+  padding: 50px 50px 50px 100px;
+}
+
+.main-content .start-tag, .main-content .tag, .main-content .end-tag {
+  font-family: 'Indie Flower';
+}
+
+.main-content .heading {
+  color: #fff;
+}
+
+.main-content .main-header {
+  margin-top: 27vh;
 }
 /*# sourceMappingURL=index.css.map */
