@@ -95,3 +95,10 @@
         right: 25px;
     }
   }
+
+/* Height Media Queries */  
+  @media only screen and (max-height: 850px) {
+   .main-content .main-header {
+     margin-top: 10vh;
+   }
+ }
