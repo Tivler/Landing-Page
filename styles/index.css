@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:700");
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +7,10 @@
 
 .background {
   background-color: #000;
-  position: absolute;
   height: 100vh;
   width: 100%;
   z-index: -1;
+  position: fixed;
 }
 
 .main-content {
@@ -31,14 +32,42 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 25px;
+}
+
+.main-content .main-nav .nav-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: .5px;
+}
+
+.main-content .main-nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.main-content .main-nav .nav-list .nav-list-item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.main-content .main-nav .nav-list .nav-list-item:nth-child(1) {
+  padding-left: 25px;
 }
 
 .main-content .main-hero {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  margin-top: 12%;
+}
+
+.main-content .main-hero .hero-title {
+  font-family: 'Merriweather' , sans-serif;
+  font-size: 12em;
+  font-weight: 200;
+  line-height: 1.15;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=index.css.map */
