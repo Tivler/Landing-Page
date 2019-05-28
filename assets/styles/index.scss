@@ -15,7 +15,7 @@ body {
 .outer-wrapper {
     margin: 0;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -61,19 +61,6 @@ body {
     }
 }
 
-#avi {
-    border-radius: 100%;
-    width: 135px;
-    height: 135px;
-    margin-bottom: 25px;
-}
-
-#avi:hover {
-    opacity: .8;
-    transform: scale(1);
-    transition: all 2s;
-}
-
 #heading {
     font-size: 2.5rem;
     letter-spacing: -1px;
@@ -86,7 +73,7 @@ body {
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
-    color: #aaa;
+    color: rgb(155, 155, 155);
     margin: 0 auto 30px;
 }
 
@@ -165,7 +152,7 @@ body {
     border-top: 1px solid #ededed;
     padding: 40px 0;
     margin: 40px 0 0;
-    color: #aaa;
+    color: rgb(155, 155, 155);
     font-weight: 300;
     text-align: center;
     position: relative;

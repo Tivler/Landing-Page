@@ -88,45 +88,6 @@ body {
   width: 100%;
 }
 
-.about-hero {
-  margin-bottom: 75px;
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
-}
-
-@media only screen and (max-width: 400px) {
-  .about-hero {
-    margin-bottom: 50px;
-  }
-}
-
-@media only screen and (max-height: 900px) {
-  .about-hero {
-    margin-bottom: 50px;
-  }
-}
-
-#avi {
-  display: block;
-  margin: 0 auto;
-  border-radius: 5px;
-  width: 50%;
-}
-
-@media only screen and (max-width: 400px) {
-  #avi {
-    border-radius: 5px;
-    width: 60%;
-    margin-bottom: 25px;
-  }
-}
-
-@media only screen and (max-height: 900px) {
-  #avi {
-    width: 45%;
-  }
-}
-
 .description {
   line-height: 1.7;
   color: #666;
