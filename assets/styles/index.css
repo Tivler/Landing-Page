@@ -68,6 +68,11 @@ body {
   }
 }
 
+.avi {
+  height: 250px;
+  border-radius: 25%;
+}
+
 #heading {
   font-size: 2.5rem;
   letter-spacing: -1px;
