@@ -16,7 +16,7 @@ body {
 .outer-wrapper {
   margin: 0;
   position: absolute;
-  top: 35%;
+  top: 32%;
   left: 50%;
   margin-right: -50%;
   -webkit-transform: translate(-50%, -50%);
@@ -69,8 +69,8 @@ body {
 }
 
 .avi {
-  height: 250px;
-  border-radius: 25%;
+  height: 220px;
+  border-radius: 5px;
 }
 
 #heading {
@@ -78,7 +78,7 @@ body {
   letter-spacing: -1px;
   color: #222;
   font-weight: 700;
-  margin: 5px 0 13px;
+  margin: 13px 0;
 }
 
 #description {
@@ -171,7 +171,6 @@ body {
 .footer-main {
   border-top: 1px solid #ededed;
   padding: 40px 0;
-  margin: 40px 0 0;
   color: #9b9b9b;
   font-weight: 300;
   text-align: center;
